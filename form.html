@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="register.php">
+
+        <div>
+            <label for="name">İsim</label><br>
+            <input type="text" id="name">
+        </div>
+        <div>
+            <label for="surname">Soyisim</label><br>
+            <input type="text" id="surname">
+        </div>
+        <div>
+            <p>Cinsiyetiniz</p>
+            <input type="radio" id="erkek" name="gender">
+            <label for="erkek">Erkek</label>
+
+            <input type="radio" id="kadın" name="gender">
+            <label for="kadın">Kadın</label>
+        </div>
+        <div>
+            <label for="cities">Yaşadığın Şehir</label><br>
+            <select id="cities">
+                <option value="6">Ankara</option>
+                <option value="7">Antalya</option>
+                <option value="34">İstanbul</option>
+                <option value="35">İzmir</option>
+            </select>
+        </div>
+        <div>
+            <label for="eposta">Email</label><br>
+            <input type="email" id="eposta">
+        </div>
+
+        <br><br>
+
+        <button type="submit">Kaydet</button>
+        <button type="reset">Temizle</button><br>
+        <a href="index.html">Anasayfa</a>
+
+    </form>
+</body>
+</html>
